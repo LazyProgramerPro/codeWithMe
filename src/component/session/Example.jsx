@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './Hook.css'
-export default Example;
+
 
 function Example() {
   // Khai báo 1 biến trạng thái mới đặt tên là "count"
@@ -15,4 +14,6 @@ function Example() {
     </div>
   );
 }
+
+export default Example;
 
