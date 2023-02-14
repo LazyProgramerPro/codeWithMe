@@ -1,13 +1,14 @@
 import './App.css';
-import TodoList from './component/session/TodoList';
+import ListPost from './component/session/ListPost';
+import TodoApp from './component/session/TodoApp';
 
 function App() {
   return (
     <div className="App">
-      <h1> Hello Thường + Đức Anh</h1>
+      <h1>React - JS</h1>
       {/* <Example></Example> */}
-
-      <TodoList></TodoList>
+      <TodoApp></TodoApp>
+      {/* <ListPost></ListPost> */}
     </div>
   );
 }
